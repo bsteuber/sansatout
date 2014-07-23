@@ -3,18 +3,32 @@
   <head>
     <meta charset="utf-8">
     <title>Sans Atout</title>
+    <style type="text/css" media="screen">
+      .seat {position: absolute;}
+      #n {left: 16em; top: 3em;}
+      #w {left: 3em; top: 9em;}
+      #o {left: 30em; top: 9em;}
+      #s {left: 16em; top: 15em;}
+    </style>
     <script src="sansatout.js" type="text/javascript"></script>
   </head>
 <body>
-  <h1>Bridge Deal</h1>
-  <h2>West</h2>
-  <div id="west"></div>
-  <h2>Nord</h2>
-  <div id="nord"></div>
-  <h2>Ost</h2>
-  <div id="ost"></div>
-  <h2>Süd</h2>
-  <div id="sued"></div>
+  <div id="n" class="seat">
+    <h2>Nord</h2>
+    <div id="nord"></div>
+  </div>
+  <div id="w" class="seat">
+    <h2>West</h2>
+    <div id="west"></div>
+  </div>
+  <div id="o" class="seat">
+    <h2>Ost</h2>
+    <div id="ost"></div>
+  </div>
+  <div id="s" class="seat">
+    <h2>Süd</h2>
+    <div id="sued"></div>
+  </div>
   <script type="text/javascript">//<![CDATA[
     sansatout.core.main();
   //]]></script>
