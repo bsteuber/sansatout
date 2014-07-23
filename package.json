@@ -1,0 +1,20 @@
+{
+  "name": "Sansatout",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+                   },
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "grunt-concurrent": "^0.5.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-shell": "^0.6.4",
+    "load-grunt-tasks": "^0.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Benjamin Teuber",
+  "license": "eclipse"
+}
